@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+
 const sosAlertSchema = new mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
@@ -69,7 +70,8 @@ const sosAlertSchema = new mongoose.Schema({
   }
 });
 
-// Create geospatial index
+
+// CreaTING geospatial index;
 sosAlertSchema.index({ location: '2dsphere' });
 sosAlertSchema.index({ status: 1 });
 sosAlertSchema.index({ createdAt: -1 });
