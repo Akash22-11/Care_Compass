@@ -1,4 +1,4 @@
-# 🚀 Black Gold Health - Quick Reference Card
+# 🚀 CORE_COMPASS - Quick Reference Card
 
 ## ⚡ Quick Start (30 seconds)
 
@@ -17,11 +17,6 @@ cd frontend
 python -m http.server 8000
 ```
 
-## 🔗 URLs
-
-- **Frontend**: http://localhost:8000
-- **Backend**: http://localhost:5000
-- **Health**: http://localhost:5000/health
 
 ## 🔑 Test Login
 
@@ -29,11 +24,6 @@ python -m http.server 8000
 - Email: `contact@citygeneralhospital.com`
 - Password: `hospital123`
 
-## 📡 API Base
-
-```javascript
-const API_BASE = 'http://localhost:5000/api';
-```
 
 ## 🚨 SOS Flow (30 seconds)
 
@@ -44,8 +34,6 @@ const API_BASE = 'http://localhost:5000/api';
 5. See hospital list
 
 ## 🏥 Hospital Response (30 seconds)
-
-1. Open http://localhost:8000/hospital-dashboard.html
 2. Login with test credentials
 3. See SOS alert
 4. Click "Accept"
@@ -58,13 +46,6 @@ const API_BASE = 'http://localhost:5000/api';
 - [ ] `backend/seed.js` - Sample data
 - [ ] `frontend/*.html` - 7 pages
 
-## 🔧 Environment Variables
-
-```bash
-PORT=5000
-MONGO_URI=mongodb://localhost:27017/black-gold-health
-JWT_SECRET=your_secret
-```
 
 ## 📊 Database Collections
 
@@ -154,8 +135,6 @@ MONGO_URI=mongodb+srv://user:pass@cluster.mongodb.net/dbname
 
 ## 🎉 You're Ready!
 
-Visit: **http://localhost:8000**
 
----
 
 **Need help?** See `SETUP_GUIDE.md` for detailed instructions.
