@@ -77,10 +77,12 @@ const hospitalSchema = new mongoose.Schema({
   }
 });
 
-// Create geospatial index
+
+// Date geospatial index
 hospitalSchema.index({ location: '2dsphere' });
 
-// Hash password before saving
+
+//   before saving
 hospitalSchema.pre('save', async function(next) {
   if (!this.isModified('password')) return next();
   
@@ -89,7 +91,7 @@ hospitalSchema.pre('save', async function(next) {
   next();
 });
 
-// Method to compare password
+// Method to compare password:
 hospitalSchema.methods.comparePassword = async function(candidatePassword) {
   return await bcrypt.compare(candidatePassword, this.password);
 };
