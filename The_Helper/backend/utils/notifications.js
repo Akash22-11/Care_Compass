@@ -39,6 +39,7 @@ if (process.env.TWILIO_ACCOUNT_SID && process.env.TWILIO_AUTH_TOKEN) {
 /**
  * Send email notification
  */
+
 const sendEmail = async ({ to, subject, html }) => {
   if (!emailTransporter) {
     logger.warn(`Email not sent (service disabled): ${subject} to ${to}`);
@@ -47,7 +48,7 @@ const sendEmail = async ({ to, subject, html }) => {
 
   try {
     const info = await emailTransporter.sendMail({
-      from: `"Black Gold Health" <${process.env.SMTP_USER}>`,
+      from: `"CORE_COMPASS" <${process.env.SMTP_USER}>`,
       to,
       subject,
       html
