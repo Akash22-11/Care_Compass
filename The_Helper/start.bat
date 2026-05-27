@@ -1,6 +1,6 @@
 @echo off
 echo ========================================
-echo   Black Gold Health Platform Startup
+echo   CORE_COMPASS Platform Startup
 echo ========================================
 echo.
 
@@ -41,12 +41,9 @@ start cmd /k "python -m http.server 8000"
 
 echo.
 echo ========================================
-echo   Black Gold Health is Running!
+echo   CORE_COMPASS is Running!
 echo ========================================
 echo.
-echo Backend:  http://localhost:5000
-echo Frontend: http://localhost:8000
-echo Health:   http://localhost:5000/health
 echo.
 echo Test Login:
 echo   Hospital: contact@citygeneralhospital.com
@@ -55,7 +52,7 @@ echo.
 echo Press any key to open frontend in browser...
 pause >nul
 
-start http://localhost:8000
+start 
 
 echo.
 echo Servers are running in separate windows.
