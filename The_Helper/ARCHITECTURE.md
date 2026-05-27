@@ -1,15 +1,15 @@
-# 📊 Black Gold Health - Technical Architecture & Summary
+# 📊 CORE_COMPASS - Technical Architecture;
 
 ## Project Overview
 
-**Black Gold Health** is a complete, production-ready emergency healthcare platform that enables:
+**CORE_COMPASS** is a complete, production-ready emergency healthcare platform that enables:
 - Instant emergency SOS alerts
 - Real-time hospital notifications
 - Geospatial hospital/pharmacy search
 - Prescription management
 - Wellness tracking
 
-## Technology Stack Summary
+## Technology Stack 
 
 ### Frontend
 | Technology | Purpose |
@@ -555,7 +555,7 @@ MIT License - Free for personal and commercial use
 
 ## Credits
 
-Developed by Black Gold Health Team
+Developed by CORE_COMPASS Team
 April 2026
 
 ---
