@@ -1,4 +1,4 @@
-# 🚑 Black Gold Health - Emergency Healthcare Platform
+# 🚑 CORE_COMPASS - Emergency Healthcare Platform
 
 A complete, production-ready emergency healthcare platform with real-time SOS functionality, hospital finder, pharmacy locator, prescription management, and wellness tracking.
 
@@ -133,7 +133,6 @@ black-gold-health/
 
 ## 📡 API Quick Reference
 
-### Base URL: `http://localhost:5000/api`
 
 ```http
 # Authentication
@@ -177,14 +176,12 @@ After running `node seed.js`:
 ### Test SOS Flow
 
 1. **User Side:**
-   - Open http://localhost:8000
    - Register/Login
    - Click "SOS EMERGENCY" button
    - Allow location access
    - See notified hospitals
 
 2. **Hospital Side:**
-   - Open http://localhost:8000/hospital-dashboard.html (different browser/incognito)
    - Login with hospital credentials
    - See incoming SOS alert
    - Click "Accept"
