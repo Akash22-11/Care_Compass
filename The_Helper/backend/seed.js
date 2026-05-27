@@ -18,7 +18,8 @@ const seedData = async () => {
     await Pharmacy.deleteMany({});
     console.log('Cleared existing data');
 
-    // Sample hospitals
+    
+    // Sample hospitals{inquery}
     const hospitals = [
       {
         name: 'City General Hospital',
