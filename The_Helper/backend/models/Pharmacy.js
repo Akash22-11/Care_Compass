@@ -53,7 +53,8 @@ const pharmacySchema = new mongoose.Schema({
   }
 });
 
-// Create geospatial index
+
+// CREATING GEO INDEX;
 pharmacySchema.index({ location: '2dsphere' });
 
 module.exports = mongoose.model('Pharmacy', pharmacySchema);
