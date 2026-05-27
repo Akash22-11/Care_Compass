@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "🔍 Black Gold Health - Project Verification"
+echo " CORE_COMPASS - Project Verification"
 echo "==========================================="
 echo ""
 
@@ -32,6 +32,7 @@ check_dir() {
 
 total=0
 passed=0
+
 
 echo "📁 DIRECTORY STRUCTURE"
 echo "----------------------"
@@ -109,6 +110,7 @@ if [ $passed -eq $total ]; then
     echo "2. node seed.js"
     echo "3. npm run dev"
     echo "4. Open http://localhost:8000"
+
 else
     echo -e "${RED}❌ Some files are missing. Please check above.${NC}"
 fi
