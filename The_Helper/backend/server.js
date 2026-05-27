@@ -13,7 +13,7 @@ const errorHandler = require('./middleware/errorHandler');
 const app = express();
 const server = http.createServer(app);
 
-// Initialize Socket.IO
+// Initialize
 const io = new Server(server, {
   cors: {
     origin: process.env.ALLOWED_ORIGINS?.split(',') || '*',
